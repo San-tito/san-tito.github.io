@@ -5,11 +5,15 @@
     "serve": "deno task lume -s"
   },
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
     "types": [
       "lume/types.ts"
     ]
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.0.1/"
+    "lume/": "https://deno.land/x/lume@v2.0.1/",
+    "preact": "https://esm.sh/preact@10.18.1",
+    "preact/": "https://esm.sh/preact@10.18.1/"
   }
 }
